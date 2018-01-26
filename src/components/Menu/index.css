@@ -1,0 +1,39 @@
+.menu {
+    height: 45px;
+    background-color: #204f9b;
+}
+.menu-title {
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 46px;
+    color: #edf907!important;
+}
+
+.dropdown {
+    background-color: whitesmoke;
+    width: 15%;
+    min-height: 500px;
+}
+
+.dropdown .filter-span{
+    padding: 0 20px;
+    color: #204f9b;
+    font-weight: bold;
+    font-size: 16px
+}
+
+.dropdown-toggle {
+    margin-left: 20px;
+}
+
+.select-type-pokemon-wrapper {
+    align-items: center;
+}
+
+.filter-span {
+    margin-right: 10px;
+    color: whitesmoke;
+    display: flex;
+}

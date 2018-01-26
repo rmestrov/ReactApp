@@ -1,0 +1,17 @@
+.card-list {
+    width: 80%;
+    margin-left: 20%;
+}
+
+.card-list .card {
+    margin: 8px;
+    width: 550px;
+    height: 150px;
+    background: #c9daea;
+}
+
+.card {
+    padding: 20px 20px;
+    text-transform: capitalize;
+    font-size: 30px;
+}
