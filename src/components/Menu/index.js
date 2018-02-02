@@ -3,6 +3,8 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import * as actionCreators from '../../actions/actionCreators';
 import './index.css';
+import Ability from './ability';
+import Abilitycheckbox from './checkbox';
 
 class Menu extends Component {
     constructor(props) {
@@ -53,6 +55,8 @@ class Menu extends Component {
                         <option value="dark">Dark</option>
                         <option value="fairy">Fairy</option>
                     </select>
+                    <Ability />
+                    <Abilitycheckbox />
                 </div>
             </div>
         );

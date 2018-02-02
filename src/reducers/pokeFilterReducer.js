@@ -2,7 +2,7 @@ import * as types from '../actions/actionTypes';
 
 const initialState = {
     isFilterByPokemonType: false,
-    type: 'any',
+    type: 'any',  
 };
 
 export default function filterReducer(state = initialState, action) {

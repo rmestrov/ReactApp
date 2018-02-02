@@ -8,15 +8,19 @@ export const fetchPokemonByType = type => dispatch => {
     .then(({ data }) => dispatch(addPokemonByType(data.pokemon)));
 };
 
+export const fetchPokemonByAbility = type => dispatch => {
+  const uri = `https://pokeapi.co/api/v2/ability/${type}/`;
+
+  axios.get(uri)
+    .then(({ data }) => dispatch(addPokemonByType(data.pokemon)));
+};
 
 export const addPokemonByType = payload => ({
   type: types.ADD_POKEMON_BY_TYPE,
   payload,
 });
 
-
 export const filterPokemonByType = payload => ({
   type: types.FILTER_POKEMON_BY_TYPE,
   payload,
 });
-
